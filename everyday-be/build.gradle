@@ -1,6 +1,6 @@
 buildscript {
 	ext {
-		swaggerVersion = "1.5.4"
+		swaggerVersion = '1.6.11'
 	}
 }
 
