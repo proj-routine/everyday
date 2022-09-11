@@ -25,6 +25,6 @@ public class Tools {
     private int order;
 
     @Column(name = "deleted", nullable = false)
-    private boolean deleted;
+    private Boolean deleted;
 
 }
