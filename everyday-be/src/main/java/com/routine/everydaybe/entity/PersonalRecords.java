@@ -19,7 +19,7 @@ public class PersonalRecords {
     @Column(name = "exercise_id", nullable = false)
     private Long exerciseId;
 
-    @Column(name = "records_date", nullable = false)
-    private LocalDate date;
+    @Column(name = "record_date", nullable = false)
+    private LocalDate recordDate;
 
 }

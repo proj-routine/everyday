@@ -27,6 +27,6 @@ public class Exercises {
     @Column(name = "kor", nullable = false)
     private String kor;
 
-    @Column(name = "kor", nullable = false)
-    private int order;
+    @Column(name = "ordered", nullable = false)
+    private int ordered;
 }

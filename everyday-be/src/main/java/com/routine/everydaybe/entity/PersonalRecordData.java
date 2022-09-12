@@ -22,14 +22,14 @@ public class PersonalRecordData {
     @Column(name = "kg")
     private int kg;
 
-    @Column(name = "count")
-    private int count;
+    @Column(name = "counts")
+    private int counts;
 
-    @Column(name = "time")
-    private int time;
+    @Column(name = "times")
+    private int times;
 
-    @Column(name = "order")
-    private int order;
+    @Column(name = "ordered")
+    private int ordered;
 
     @Column(name = "done")
     private Boolean done;
