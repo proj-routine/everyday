@@ -21,7 +21,7 @@ export const theme: ThemeOptions = createTheme({
       primary: '#333333',
     },
     background: {
-      default: '#f5f5f5',
+      default: '#ffffff',
     },
   },
   typography: {
