@@ -23,6 +23,7 @@ export const theme: ThemeOptions = createTheme({
     background: {
       default: '#ffffff',
     },
+    divider: '#e0e0e0',
   },
   typography: {
     fontSize: 14,
@@ -39,11 +40,11 @@ export const theme: ThemeOptions = createTheme({
       fontWeight: 700,
     },
     subtitle1: {
-      fontSize: 18,
+      fontSize: 16,
       fontWeight: 700,
     },
     subtitle2: {
-      fontSize: 16,
+      fontSize: 14,
       fontWeight: 700,
     },
     body1: {
