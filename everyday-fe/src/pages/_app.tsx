@@ -2,7 +2,10 @@ import '@styles/index.css';
 
 import AppLayout from '@components/layouts/AppLayout';
 import { ThemeProvider } from '@mui/material';
+import { LocalizationProvider } from '@mui/x-date-pickers';
+import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 import { theme } from '@styles/theme';
+import koLocale from 'date-fns/locale/ko';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 
@@ -15,9 +18,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         <title>Every Day</title>
       </Head>
       <ThemeProvider theme={theme}>
-        <AppLayout>
-          <Component {...pageProps} />
-        </AppLayout>
+        <LocalizationProvider dateAdapter={AdapterDateFns} locale={koLocale}>
+          <AppLayout>
+            <Component {...pageProps} />
+          </AppLayout>
+        </LocalizationProvider>
       </ThemeProvider>
     </>
   );
