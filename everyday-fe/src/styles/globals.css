@@ -1,0 +1,4 @@
+:root {
+    --vh: 1vh;
+    --100vh: calc(var(--vh, 1vh) * 100);
+}
