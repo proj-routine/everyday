@@ -14,6 +14,7 @@ export default function PageLayout({ children }: Props) {
       <Box
         component="main"
         sx={{
+          flex: 1,
           paddingLeft: 5,
           paddingRight: 5,
         }}
